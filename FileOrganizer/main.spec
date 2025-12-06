@@ -27,6 +27,7 @@ exe = EXE(
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,
+    icon='logo.ico'
     upx_exclude=[],
     runtime_tmpdir=None,
     console=False,
